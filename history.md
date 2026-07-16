@@ -48,7 +48,7 @@ TexraWeb 是 TexraJava 对应网站；OCR 所用技术（PaddleOCR）以及广�
 2. 路径对齐 TexraJava `AppLinks`：`/`、`/privacy/`、`/terms/`、站点根目录 `app-ads.txt`。
 3. `app-ads.txt` 声明 `pub-4760444532791306`（与 TexraJava release AdMob App ID 一致）。
 4. 视觉对齐 Texra Design System（Primary `#185FA5`、Accent `#EF9F27`、Canvas `#F8F9FC`）。
-5. 法律页中英双语（本地语言切换）；联系邮箱 `support@texra.app`。
+5. 法律页中英双语（本地语言切换）；联系邮箱 `xuetingcat@gmail.com`。
 
 ### 修改文件
 - `index.html`（新增）

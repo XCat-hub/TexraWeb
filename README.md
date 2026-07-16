@@ -13,7 +13,7 @@ Static GitHub Pages site for the **Texra** Android app (`dd.ai.texra`).
 | `/terms/` | Terms of Service |
 | `/app-ads.txt` | AdMob authorized seller file |
 
-Contact: [support@texra.app](mailto:support@texra.app)
+Contact: [xuetingcat@gmail.com](mailto:xuetingcat@gmail.com)
 
 ## AdMob `app-ads.txt`
 
