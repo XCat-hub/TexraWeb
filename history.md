@@ -1,3 +1,23 @@
+## 2026-07-17 — 隐藏 PaddleOCR 技术点名与广告展示
+
+### 需求
+TexraWeb 是 TexraJava 对应网站；OCR 所用技术（PaddleOCR）以及广告相关内容不需要在网站上展示。
+
+### 方案
+1. 首页功能列表去掉 `PaddleOCR` 品牌，保留通用「端侧 OCR / 文字识别」产品描述。
+2. 首页 Hero 去掉 Premium「无广告」话术；法律区标题改为「Legal / 法律信息」，删除 `app-ads.txt` 卡片与广告措辞。
+3. 首页与法律页 footer 不再展示 `app-ads.txt` 链接；布局由三列改为两列。
+4. 保留根目录 `app-ads.txt` 文件供 AdMob 爬取；隐私政策 / 服务条款中的 AdMob 合规说明暂保留（若 App 已无广告，可再删改）。
+
+### 修改文件
+- `index.html`
+- `assets/css/styles.css`
+- `privacy/index.html`（footer）
+- `terms/index.html`（footer）
+- `history.md`
+
+---
+
 ## 2026-07-16 — 改用 GitHub Pages 默认域名
 
 ### 需求
